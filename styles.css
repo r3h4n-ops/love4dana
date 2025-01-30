@@ -1,0 +1,29 @@
+body {
+    font-family: 'Cairo', sans-serif;
+    background: url('old-paper.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #3b2a20;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2em;
+    font-family: 'Amiri', serif;
+    color: #6a4e3b;
+}
+
+button {
+    background-color: #d7a46f;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-family: 'Amiri', serif;
+}
+
+button:hover {
+    background-color: #c4925a;
+}
