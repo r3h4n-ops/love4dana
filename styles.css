@@ -1,18 +1,40 @@
+/* General Body Styles */
 body {
     font-family: 'Cairo', sans-serif;
     background: url('old-paper.jpg') no-repeat center center fixed;
     background-size: cover;
     color: #3b2a20;
-    text-align: center;
     padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+    margin: 0;
 }
 
+/* Container for Centering Content */
+.container {
+    max-width: 800px;
+    width: 100%;
+}
+
+/* Title Styles */
 h1 {
     font-size: 2em;
     font-family: 'Amiri', serif;
     color: #6a4e3b;
+    margin-bottom: 20px;
 }
 
+/* Poetry Style */
+#poetry {
+    font-size: 1.5em;
+    color: #3b2a20;
+    margin-bottom: 20px;
+}
+
+/* Button Style */
 button {
     background-color: #d7a46f;
     color: white;
